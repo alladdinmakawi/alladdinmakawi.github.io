@@ -51,6 +51,7 @@
             "name": "Alladdin Yousif Makawi, MD",
             "description": "The professional profile of Alladdin Yousif Makawi, MD, an internal medicine physician and cardiovascular researcher.",
             "dateModified": "2026-07-29T20:30:00Z",
+            "inLanguage": "en-US",
             "isPartOf": {
               "@id": "https://alladdinmakawi.com/#website"
             },
@@ -87,6 +88,7 @@
             "url": "https://alladdinmakawi.com/",
             "name": "Alladdin Yousif Makawi, MD",
             "alternateName": "Alladdin Makawi, MD",
+            "inLanguage": "en-US",
             "publisher": {
               "@id": "https://alladdinmakawi.com/#alladdin-makawi"
             }
@@ -115,16 +117,20 @@
               "@id": "https://alladdinmakawi.com/#profile"
             },
             "jobTitle": ["Research Chief Resident", "Beacon of Hope Research Fellow"],
-            "affiliation": [
+            "worksFor": [
               {
-                "@type": "Organization",
-                "name": "Morehouse School of Medicine",
-                "url": "https://www.msm.edu/"
+                "@id": "https://alladdinmakawi.com/#morehouse-school-of-medicine"
               },
               {
-                "@type": "Organization",
-                "name": "Morehouse Clinical Research Center",
-                "url": "https://researchwebportal.msm.edu/resources/clinical-research-center/"
+                "@id": "https://alladdinmakawi.com/#morehouse-clinical-research-center"
+              }
+            ],
+            "affiliation": [
+              {
+                "@id": "https://alladdinmakawi.com/#morehouse-school-of-medicine"
+              },
+              {
+                "@id": "https://alladdinmakawi.com/#morehouse-clinical-research-center"
               }
             ],
             "image": {
@@ -147,8 +153,30 @@
               "https://orcid.org/0000-0002-7667-5923",
               "https://www.doximity.com/pub/alladdin-makawi-md",
               "https://researchwebportal.msm.edu/staff/alladdin-makawi-md/",
-              "https://eyewiki.org/User%3AAlladdin.Makawi"
+              "https://eyewiki.org/User%3AAlladdin.Makawi",
+              "https://github.com/alladdinmakawi"
             ]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://alladdinmakawi.com/#morehouse-school-of-medicine",
+            "name": "Morehouse School of Medicine",
+            "url": "https://www.msm.edu/",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "ROR",
+              "value": "01pbhra64",
+              "url": "https://ror.org/01pbhra64"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://alladdinmakawi.com/#morehouse-clinical-research-center",
+            "name": "Morehouse Clinical Research Center",
+            "url": "https://researchwebportal.msm.edu/resources/clinical-research-center/",
+            "parentOrganization": {
+              "@id": "https://alladdinmakawi.com/#morehouse-school-of-medicine"
+            }
           },
           {
             "@type": "ImageObject",
