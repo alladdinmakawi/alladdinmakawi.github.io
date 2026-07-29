@@ -13,4 +13,22 @@
       <image:loc>https://alladdinmakawi.com/public/alladdin-makawi-acc26-poster.jpg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://alladdinmakawi.com/insights/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <image:image>
+      <image:loc>https://alladdinmakawi.com/public/alladdin-makawi-acc26-poster.jpg</image:loc>
+      <image:title>Insights by Alladdin Yousif Makawi, MD</image:title>
+      <image:caption>Alladdin Yousif Makawi, MD presenting clinical-investigation and quality-improvement research at ACC.26</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://alladdinmakawi.com/insights/hypertension-screening-and-prevention/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <image:image>
+      <image:loc>https://alladdinmakawi.com/public/alladdin-makawi-acc26-poster.jpg</image:loc>
+      <image:title>Hypertension Screening and Prevention</image:title>
+      <image:caption>Alladdin Yousif Makawi, MD presenting clinical-investigation and quality-improvement research at ACC.26</image:caption>
+    </image:image>
+  </url>
 </urlset>
