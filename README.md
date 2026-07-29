@@ -1,8 +1,9 @@
 # Alladdin Makawi, MD — professional website
 
-This folder contains the static, GitHub Pages-compatible professional website
-for Alladdin Yousif Makawi, MD. The source repository exists, but GitHub Pages
-and the custom domain are not yet live.
+This folder contains the maintained static, GitHub Pages-compatible professional
+website for Alladdin Yousif Makawi, MD. GitHub Pages is live at
+`https://alladdinmakawi.github.io/`. The custom domain is not yet registered or
+connected.
 
 ## Review locally
 
@@ -21,6 +22,10 @@ Then open `http://localhost:8000` in a browser. Stop the local preview with
 - `insights/index.html` — crawlable Insights hub
 - `insights/hypertension-screening-and-prevention/index.html` — first
   evidence-based article
+- `presentations/index.html` — staged research-presentation page with four
+  contextual professional images
+- `leadership-and-teaching/index.html` — staged leadership and teaching page
+  with the 2025 Morehouse GME commencement and Complex Clinical Cases images
 - `styles.css` — responsive layout and visual styling
 - `public/alladdin-makawi-headshot.jpg` — professional portrait
 - `public/alladdin-makawi-acc26-poster.jpg` — ACC.26 research photograph
@@ -31,8 +36,9 @@ Then open `http://localhost:8000` in a browser. Stop the local preview with
   research and education pages; it is documentation, not a public page
 
 The canonical URL, Open Graph URLs, sitemap, and structured-data URLs are
-prepared for `https://alladdinmakawi.com/`. That address will not become active
-unless the site is later published and the domain is configured.
+prepared for `https://alladdinmakawi.com/`. Until that domain is registered and
+configured, the public GitHub Pages site remains accessible but its preferred
+canonical URL does not resolve.
 
 ## Production launch
 
