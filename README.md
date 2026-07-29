@@ -1,63 +1,23 @@
-# Alladdin Makawi, MD — professional website
+# Alladdin Yousif Makawi, MD — official professional website
 
-This folder contains the maintained static, GitHub Pages-compatible professional
-website for Alladdin Yousif Makawi, MD. GitHub Pages is live at
-`https://alladdinmakawi.github.io/`. The custom domain is not yet registered or
-connected.
+[alladdinmakawi.com](https://alladdinmakawi.com/) is the official professional website of Alladdin Yousif Makawi, MD, a Research Chief Resident at Morehouse School of Medicine and Beacon of Hope Research Fellow at the Morehouse Clinical Research Center.
 
-## Review locally
+The site documents his work and interests in cardiovascular medicine, hypertension prevention, cardiovascular health equity, implementation science, clinical research, medical education, leadership, and quality improvement.
 
-From this folder, run:
+## Explore
 
-```bash
-python3 -m http.server 8000
-```
+- [Professional profile](https://alladdinmakawi.com/)
+- [Research presentations](https://alladdinmakawi.com/presentations/)
+- [Insights and evidence-based writing](https://alladdinmakawi.com/insights/)
+- [Leadership and teaching](https://alladdinmakawi.com/leadership-and-teaching/)
 
-Then open `http://localhost:8000` in a browser. Stop the local preview with
-`Control-C`.
+## Established professional profiles
 
-## Files used by the static site
+- [LinkedIn](https://www.linkedin.com/in/alladdin-makawi-md-332687107/)
+- [Google Scholar](https://scholar.google.com/citations?user=pmJdth4AAAAJ)
+- [ORCID](https://orcid.org/0000-0002-7667-5923)
+- [ResearchGate](https://www.researchgate.net/profile/Alladdin-Makawi)
+- [Doximity](https://www.doximity.com/pub/alladdin-makawi-md)
+- [Morehouse Clinical Research Center](https://researchwebportal.msm.edu/staff/alladdin-makawi-md/)
 
-- `index.html` — page content, metadata, and Person structured data
-- `insights/index.html` — crawlable Insights hub
-- `insights/hypertension-screening-and-prevention/index.html` — first
-  evidence-based article
-- `presentations/index.html` — staged research-presentation page with four
-  contextual professional images
-- `leadership-and-teaching/index.html` — staged leadership and teaching page
-  with the 2025 Morehouse GME commencement and Complex Clinical Cases images
-- `styles.css` — responsive layout and visual styling
-- `public/alladdin-makawi-headshot.jpg` — professional portrait
-- `public/alladdin-makawi-acc26-poster.jpg` — ACC.26 research photograph
-- `public/favicon.svg` — browser icon
-- `CNAME` — intended custom domain: `alladdinmakawi.com`
-- `robots.txt` and `sitemap.xml` — search-engine discovery files
-- `INSIGHTS_ARCHITECTURE.md` — reviewed plan for the first three substantive
-  research and education pages; it is documentation, not a public page
-
-The canonical URL, Open Graph URLs, sitemap, and structured-data URLs are
-prepared for `https://alladdinmakawi.com/`. Until that domain is registered and
-configured, the public GitHub Pages site remains accessible but its preferred
-canonical URL does not resolve.
-
-## Production launch
-
-1. Upload the reviewed source state to the public `alladdinmakawi.github.io`
-   repository, preserving the `public` and `insights` folders.
-2. Enable GitHub Pages from the `main` branch and repository root.
-3. Add and verify `alladdinmakawi.com` in the owning GitHub account before
-   changing public DNS; retain GitHub's verification TXT record.
-4. Point the apex domain to GitHub Pages and point `www` directly to
-   `alladdinmakawi.github.io`. Remove conflicting records.
-5. Wait for the domain check and TLS certificate, then enable **Enforce HTTPS**.
-6. Confirm that the apex HTTPS URL, redirects, CSS, images, `robots.txt`, and
-   `sitemap.xml` all work before submitting the site to search engines.
-7. Verify the domain in Google Search Console, submit the sitemap, request
-   homepage indexing once, and then import the verified property into Bing
-   Webmaster Tools.
-8. Add the live custom-domain URL to controlled professional profiles only
-   after HTTPS is stable.
-9. Recheck every title, biography statement, publication, profile link, and
-   photograph before publication.
-
-Nothing in this folder performs deployment automatically.
+This public repository contains the static source for the custom-domain GitHub Pages site, including structured data, canonical metadata, a crawlable sitemap, an image sitemap, and substantive research and education pages.
