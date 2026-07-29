@@ -1,8 +1,8 @@
 # Alladdin Makawi, MD — professional website
 
-This folder contains a static, GitHub Pages-compatible professional website for
-Alladdin Yousif Makawi, MD. It is a local review draft and has not been
-published or connected to a GitHub repository.
+This folder contains the static, GitHub Pages-compatible professional website
+for Alladdin Yousif Makawi, MD. The source repository exists, but GitHub Pages
+and the custom domain are not yet live.
 
 ## Review locally
 
@@ -18,6 +18,9 @@ Then open `http://localhost:8000` in a browser. Stop the local preview with
 ## Files used by the static site
 
 - `index.html` — page content, metadata, and Person structured data
+- `insights/index.html` — crawlable Insights hub
+- `insights/hypertension-screening-and-prevention/index.html` — first
+  evidence-based article
 - `styles.css` — responsive layout and visual styling
 - `public/alladdin-makawi-headshot.jpg` — professional portrait
 - `public/alladdin-makawi-acc26-poster.jpg` — ACC.26 research photograph
@@ -31,10 +34,10 @@ The canonical URL, Open Graph URLs, sitemap, and structured-data URLs are
 prepared for `https://alladdinmakawi.com/`. That address will not become active
 unless the site is later published and the domain is configured.
 
-## Publish later, only after approval
+## Production launch
 
-1. Create the public `alladdinmakawi.github.io` repository and upload only the
-   static files listed above, preserving the `public` folder.
+1. Upload the reviewed source state to the public `alladdinmakawi.github.io`
+   repository, preserving the `public` and `insights` folders.
 2. Enable GitHub Pages from the `main` branch and repository root.
 3. Add and verify `alladdinmakawi.com` in the owning GitHub account before
    changing public DNS; retain GitHub's verification TXT record.
@@ -51,4 +54,4 @@ unless the site is later published and the domain is configured.
 9. Recheck every title, biography statement, publication, profile link, and
    photograph before publication.
 
-Nothing in this folder performs deployment or publishes content automatically.
+Nothing in this folder performs deployment automatically.
